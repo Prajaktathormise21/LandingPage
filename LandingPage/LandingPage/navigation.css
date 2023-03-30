@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#855f77, #6e6aa1e3);
+
+}
+
+nav .Logo p {
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1, 5px;
+    cursor: pointer;
+}
+
+nav ul {
+
+    float: right;
+
+}
+
+nav li {
+
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+
+    color: #ff8c69;
+    transition-property: all 0.4s ease 0s;
+}
+
+.content-iteams img {
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+    float: right;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icons a {
+    position: relative;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child) {
+    margin-right: 60px;
+}
+
+.media-icons a:hover {
+    transform: scale(1.5);
+    color: yellow;
+}
+
+label {
+    display: none;
+}
+
+.facts {
+    display: contents;
+    justify-content: center;
+    align-items: right;
+    font-size: 20px;
+    font-weight: lighter;
+    color: aqua;
+    letter-spacing: 0.5px;
+}
+
+nav ul {
+
+    float: right;
+
+}
